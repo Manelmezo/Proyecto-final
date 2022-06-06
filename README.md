@@ -1,11 +1,14 @@
 # Proyecto-final
 ## Libro-Juego
-### Subtítulo
-Este es un ejemplo de texto que da entrada a una lista genérica de elementos:
-- Elemento 1
-- Elemento 2
-- Elemento 3
-Este es un ejemplo de texto que da entrada a una lista numerada:
+### Una entrada al mundo del caos.
+En este proyecto en el que trabajamos, desarrollamos varios campos de informática, tales como:
+- HTML
+- CSS
+- Javascrip
+- Java
+- Docker
+Entre muchos otros.
+Aun habiendo coperado como equipo como se esperaría de un grupo de informáticos, ha de destacar el magnifico trabajo de Lenguajes de Marca, el cual fue pulido y trabajado con furor por nuestro compañero Manel.
 1. Elemento 1
 2. Elemento 2
 3. Elemento 3
