@@ -9,7 +9,9 @@ En este proyecto en el que trabajamos, desarrollamos varios campos de informáti
 - Docker
 
 Entre muchos otros.
+
 Aun habiendo coperado como equipo como se esperaría de un grupo de informáticos, ha de destacar el magnifico trabajo de Lenguajes de Marca, el cual fue pulido y trabajado con furor por nuestro compañero Manel.
+
 1. Elemento 1
 2. Elemento 2
 3. Elemento 3
