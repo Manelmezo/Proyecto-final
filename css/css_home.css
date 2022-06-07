@@ -1,0 +1,56 @@
+html{    cursor: url("imagenes/espada.png"), auto;
+
+}
+body{
+    background-image: url(imagenes/Scroll-PNG-File.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 250em;
+
+}
+header{
+    margin-top: 0.5em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.2em;
+}
+h1{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.botón {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #d1b65c;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    cursor: url(imagenes/espada.png), auto;
+  }
+  
+  .botón:hover {background-color: #978444;}
+  
+  .botón:active {
+    cursor: url(imagenes/espada_click.png), auto;
+    background-color: #978444;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+  } 
+main{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 2em;
+    margin-right: 5em;
+    font-size: 1.25em;
+}
+
+a:link,a:active,a:hover,a:visited{
+    color: blue;
+}

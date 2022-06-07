@@ -1,0 +1,98 @@
+/*importamos el tipo de  letra que vamos a utilizar, en este caso en el login se ha usado letra 'Open Sans'*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/*Sin bordes, el color del fondo del boton será blanco*/
+.boton{border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      text-decoration: none;
+      text-transform: uppercase;
+
+}
+
+.boton {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #d1b65c;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    cursor: url(imagenes/espada.png), auto;
+  }
+.boton:hover {background-color: #978444;}
+  
+  .boton:active {
+    cursor: url(imagenes/espada_click.png), auto;
+    background-color: #978444;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+  } 
+/* tambien falta ajustar el tamaño  del boton */
+.boton{
+    text-align: center;
+    position:absolute;top: 60%; 
+    padding:8px;
+    display: block;
+    box-sizing: border-box;
+    left: 36.5%;
+
+}
+
+html { width: 100%; height:100%; overflow:hidden;
+cursor: url("imagenes/espada.png"), auto; }
+
+body { 
+    width: 100%;
+    height:100%;
+    font-family: 'Open Sans', sans-serif;
+    background: #092756;
+
+}
+.login { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -150px;
+    width:300px;
+    height:300px;
+}
+.login h1 { color: rgb(194, 104, 44); text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; }
+
+input { 
+    width: 100%; 
+    margin-bottom: 10px; 
+    background: rgba(0,0,0,0.3);
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+
+
+}
+/*Los objetos de tipo focus al estar 'trabajando con ellos' con la propiedad focus*/
+input:focus { box-shadow: inset 0 -5px 45px #cfbcbc66, 0 1px 1px rgba(255,255,255,0.2); }
+a:link,a:active,a:hover,a:visited{
+    color: black;
+    text-decoration: none;
+}
+body{
+    background-image: url(imagenes/Scroll-PNG-File.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 250em;
+
+}
